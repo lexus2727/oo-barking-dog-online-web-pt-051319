@@ -1,14 +1,14 @@
 class Dog
   
-  def name=(dog_name)
+  def name=(dog_name) #setter method, gives dog a name
     @that_dogs_name = dog_name
   end
   
   def name
-    @that_dogs_name
+    @that_dogs_name #getter method,          reads and returns dog's name
   end
   
-  def bark
+  def bark #creates behavior
     puts "woof!"
  end
 end
